@@ -18,7 +18,7 @@ The `create_fold.py` script generates cross-validation folds for your dataset us
 
 #### Usage
 
-  ```bash
+  ```shell
 python create_fold.py --input <path-to-input-csv> --output <path-to-output-csv-with-folds>
 
 Model Evaluation
