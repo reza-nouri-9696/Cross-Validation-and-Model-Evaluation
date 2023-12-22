@@ -11,7 +11,6 @@ Clone the repository and install requirements:
 ```bash
 git clone https://github.com/<username>/ml-project.git
 cd ml-project
-pip install -r requirements.txt
 ```
 
 Requirements:
@@ -91,6 +90,7 @@ AUC plot:
 ## Contributing
 
 Contributions to improve the code are welcome! Please open an issue or PR.
+
 
 ## License
 
