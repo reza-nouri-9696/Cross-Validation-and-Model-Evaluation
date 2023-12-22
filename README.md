@@ -24,10 +24,10 @@ you should first add folds to your dataset with:
 
 ```nash
 !python creat_folds.py --input "/path_your_input_dataset/train.csv" --output "/path_your_output/cat_train_folds.csv"
-
 ```
+then run model with:
 ```bash
-python run.py --input data.csv
+python run.py --input "/cat_train_folds.csv
 ```
 This will:
 
