@@ -20,12 +20,15 @@ Requirements:
 
 ## Usage
 
-The pipeline can be run with:
+you should first add folds to your dataset with:
 
+```nash
+!python creat_folds.py --input "/path_your_input_dataset/train.csv" --output "/path_your_output/cat_train_folds.csv"
+
+```
 ```bash
 python run.py --input data.csv
 ```
-
 This will:
 
 - Load the data 
@@ -48,18 +51,6 @@ The main scripts are:
 - `create_folds.py` - split data into folds
 - `run.py` - train and evaluate model
 
-The key functions are:
-
-```python
-def create_folds(data):
-  # Split data into folds
-  
-def run(fold):  
-  # Load and preprocess data
-  # Train model
-  # Evaluate model
-  # Generate plots
-```
 
 The model training pipeline handles:
 
