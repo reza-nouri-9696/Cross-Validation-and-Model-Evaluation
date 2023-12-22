@@ -1,4 +1,4 @@
-# Machine Learning Project
+# Machine Learning Project For Unbalanced Dataset
 
 This project implements a machine learning pipeline for a classification task. It includes data preprocessing, model training, evaluation, and visualization.
 Be careful that this model is suitable for a dataset whose labels are unbalanced. So and so has been used straitfieldKFOLD for cross validation.
