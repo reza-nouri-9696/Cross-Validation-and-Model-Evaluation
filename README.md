@@ -7,7 +7,7 @@ This project implements a machine learning pipeline for a classification task. I
 Clone the repository and install requirements:
 
 ```bash
-git clone https://github.com/<username>/ml-project.git
+git clone https://github.com/reza-nouri-9696/Cross-Validation-and-Model-Evaluation.git
 cd ml-project
 ```
 
