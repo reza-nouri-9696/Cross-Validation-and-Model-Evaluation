@@ -1,6 +1,4 @@
 # Cross-Validation-and-Model-Evaluation
-# Cross-Validation and Model Evaluation
-
 This repository contains Python scripts for creating cross-validation folds (`create_fold.py`) and running logistic regression models on each fold, evaluating the model's performance (`run.py`).
 
 ## Table of Contents
@@ -20,9 +18,9 @@ The `create_fold.py` script generates cross-validation folds for your dataset us
 
 #### Usage
 
-```bash
+  ```bash
 python create_fold.py --input <path-to-input-csv> --output <path-to-output-csv-with-folds>
-```bash
+
 Model Evaluation
 run.py
 The run.py script reads the CSV file with cross-validation folds, preprocesses the data, trains logistic regression models on each fold, and evaluates the model's performance using the Area Under the Curve (AUC) metric. It also generates confusion matrices and AUC graphs.
