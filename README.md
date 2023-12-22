@@ -27,7 +27,7 @@ you should first add folds to your dataset with:
 ```
 then run model with:
 ```bash
-python run.py --input "/cat_train_folds.csv
+python run.py --input "/path_of/cat_train_folds.csv"
 ```
 This will:
 
